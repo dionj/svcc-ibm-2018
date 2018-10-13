@@ -20,7 +20,7 @@ Welcome ! Follow the steps below to win the IBM raffle at SVCC 2018. You `DO NOT
 3. Log into your IBM Cloud account and follow the steps below.
 
 ## Log In and Initialize Watson Language Translate Server
-1. Click on `Create resource`.
+1. Go to `Dashboard` first and then click on `Create resource`.
 
 ![IBM Sign up](assets/ibm-dashboard-clean.jpg)
 2. Type in `translate` in the search bar to look for the translation service.
