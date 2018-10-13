@@ -49,20 +49,8 @@ Welcome ! Follow the steps below to win the IBM raffle at SVCC 2018. You `DO NOT
 5. Look for the `translate` section. Either copy paste the code or simply click on the code to copy in the editor.
 
 ![IBM Sign up](assets/tjbot-3-translate-insert.jpg)
-6. Remove the username and password from the language_translator object. Uncomment the iam_apikey attribute and add `process.env.LANGUAGE_TRANSLATOR_USERNAME`. This is what the final code should look like:
 
-```
-  var tj = new TJBot([], {}, {
-    language_translator: {
-      iam_apikey: process.env.LANGUAGE_TRANSLATOR_USERNAME
-    }
-  });
-
-  tj.translate("Hello", "en", "fr")
-    .then((response) => console.log(response.translations[0].translation));
-  ```
-  
-7. You can change `console.log(...)` to `alert(...)`.
+6. You can change `console.log(...)` to `alert(...)`.
   ![IBM Sign up](assets/tjbot-4-final.jpg)
 
 Note: The following languages are currently supported by Watson Lanuage Translation Service: 
